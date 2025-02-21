@@ -5,7 +5,7 @@ function Header() {
     <div className="mx-6 lg:ml-[165px] md:mr-0 flex justify-between">
       <div className="">
         <h1 className="text-[40px] font-bold pt-10">equalizer</h1>
-        <p className="text-[64px] md:text-[88px] font-bold mt-[64px] md:mt-[95px] lg:mt-[127px]">
+        <p className="text-[40px] md:text-[64px] lg:text-[88px] font-bold mt-[64px] md:mt-[95px] lg:mt-[127px]">
           We make your music sound extraordinary.
         </p>
         <p className="mt-5 max-w-[825px]">
