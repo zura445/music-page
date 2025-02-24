@@ -2,7 +2,7 @@ import React from "react";
 
 function Header() {
   return (
-    <div className="mx-6 lg:ml-[165px] md:mr-0 flex justify-between">
+    <div className="mx-6 md:mr-0 flex justify-between relative">
       <div className="">
         <h1 className="text-[40px] font-bold pt-10">equalizer</h1>
         <p className="text-[40px] md:text-[64px] lg:text-[88px] font-bold mt-[64px] md:mt-[95px] lg:mt-[127px]">
@@ -15,7 +15,7 @@ function Header() {
           control, reverb, and more!
         </p>
       </div>
-      <div className="w-[266px] lg:w[312px] h-[400px] hidden md:block">
+      <div className="w-[266px] lg:w[312px] h-[400px] hidden md:block absolute top-0 right-0">
         <img
           className="max-w-full md:w-[312px] h-auto"
           src="/logo.png"

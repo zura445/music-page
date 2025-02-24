@@ -2,8 +2,8 @@ import React from "react";
 
 function MainBox() {
   return (
-    <div className="relative flex justify-center flex-col items-center md:items-start lg:px-[165px]">
-      <div className="w-[208px] md:w-[270px] lg:w-[312px] absolute top-0 md:top-[370px] lg:top-[300px] md:mt-[-330px] md:left-[100px] lg:left-[283px] z-10">
+    <div className="relative flex justify-center flex-col items-center md:items-start">
+      <div className="w-[208px] md:w-[270px] lg:w-[312px] absolute top-0 md:top-[370px] lg:top-[300px] md:mt-[-330px] md:left-[100px] lg:left-[125px] z-10">
         <img
           className="w-full mt-[68px]"
           src="/phone-medium.png"
@@ -37,13 +37,13 @@ function MainBox() {
             <span className="font-bold text-[65px]">$4</span>
             <span className="text-xl ml-4">/ month</span>
           </div>
-          <div className="bg-black flex justify-center mt-8 py-4 rounded-lg">
+          <div className="bg-black hover:bg-sky flex justify-center mt-8 py-4 rounded-lg">
             <button>
               <img src="/ios.png" alt="ios image" />
             </button>
             <span className="text-lg font-bold ml-2">iOS Download</span>
           </div>
-          <div className="bg-white flex justify-center mt-4 py-4 rounded-lg">
+          <div className="bg-white hover:bg-lightOrange flex justify-center mt-4 py-4 rounded-lg">
             <button>
               <img src="/android.png" alt="android image" />
             </button>

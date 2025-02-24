@@ -12,4 +12,6 @@
   min-height: 100vh;
   background-image: url("/back.png");
   background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
 }
