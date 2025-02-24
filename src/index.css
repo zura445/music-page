@@ -10,8 +10,25 @@
 
 #root {
   min-height: 100vh;
-  background-image: url("/back.png");
+  background-image: url("/back.png"), url("/logo.png");
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
+  /* განსაზღვრეთ თითოეული სურათის ზომა და პოზიცია ცალ-ცალკე */
+  background-size: cover, 312px;
+  background-position: center, top right;
+}
+
+@media (max-width: 1024px) {
+  #root {
+    background-size: cover, 266px;
+  }
+}
+
+@media (max-width: 768px) {
+  #root {
+    background-image: url("/back.png"); /* logo.png გაქრება */
+    background-size: cover;
+    background-position: center;
+  }
 }

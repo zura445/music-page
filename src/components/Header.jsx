@@ -15,13 +15,6 @@ function Header() {
           control, reverb, and more!
         </p>
       </div>
-      <div className="w-[266px] lg:w[312px] h-[400px] hidden md:block absolute top-0 right-0">
-        <img
-          className="max-w-full md:w-[312px] h-auto"
-          src="/logo.png"
-          alt=""
-        />
-      </div>
     </div>
   );
 }
