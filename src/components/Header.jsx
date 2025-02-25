@@ -3,9 +3,9 @@ import React from "react";
 function Header() {
   return (
     <div className="mx-6 md:mr-0 flex justify-between relative">
-      <div className="">
+      <div className="md:max-w-[520px] lg:max-w-[700px]">
         <h1 className="text-[40px] font-bold pt-10">equalizer</h1>
-        <p className="text-[40px] md:text-[64px] lg:text-[88px] font-bold mt-[64px] md:mt-[95px] lg:mt-[127px]">
+        <p className="text-[40px] md:text-[48px] lg:text-[64px] font-bold mt-[64px] md:mt-[95px] lg:mt-[127px] ">
           We make your music sound extraordinary.
         </p>
         <p className="mt-5 max-w-[825px]">
